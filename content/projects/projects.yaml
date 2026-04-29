@@ -1,0 +1,140 @@
+# Projects List
+# Displayed on the homepage in the Projects section
+
+- id: project_1
+  title: "Modelling incremental impact of malaria vaccine booster and optimal allocation strategy"
+  authors: "Lucy Okell, Nora Schmit, Lydia Haile, Hillary Topazian, TKI, WHO. "
+  description: "Modelled estimates of the incremental impact of the 4th dose of the malaria vaccine for the WHO Strategic Advisory Group of Experts (SAGE), Malaria Policy Advisory Group (MPAG) and Immunization and vaccines related research advisory committee (IVIR-AC)"
+  #context: "The Lancet."
+  #writeup: "https://www.who.int/news-room/events/detail/2025/09/22/default-calendar/strategic-advisory-group-of-experts-on-immunization-september-2025" # If you have a PDF or write-up. Note, the project
+  #poster: "content/projects/files/..." # If you have a poster related to the project. This can also be a link
+  #slides: "content/projects/files/..." # If you have slides related. This can also be a link
+  #video: "https://www.youtube.com/watch?v=cTL9RoqPIv8&t=2s" # If you have a link to a video that explains the project
+  code: "https://github.com/mrc-ide/malariavax2G" # If you have a link to the code of the project
+  image: "content/projects/files/sage.png"
+  articles:
+    - title: "Meeting documentation"
+      url: "https://malarianomore.org.uk/david-beckham-and-experts-unite-launch-zero-malaria-experience"
+    - title: "SAGE Report and Recommendation"
+      url: "https://www.who.int/publications/i/item/who-wer10049-605-626"
+    - title: "IVIR-AC Report and Recommendation"
+      url: "https://terrance.who.int/internet/data/202509-IVIR-AC-Pink-Book-September-2025.pdf"
+
+
+- id: project_1
+  title: "Zero Malaria Experience."
+  authors: "ICL London (Hillary Topazian, Azra Ghani, Pete Winskill, Lydia Haile), Malaria No More UK, The Mill."
+  description: "Modelled estimates of the impact of malaria interventions on cases and deaths in sub-Saharan Africa."
+  #context: "The Lancet."
+  writeup: "https://www.x.zeromalaria.org/" # If you have a PDF or write-up. Note, the project
+  #poster: "content/projects/files/..." # If you have a poster related to the project. This can also be a link
+  #slides: "content/projects/files/..." # If you have slides related. This can also be a link
+  video: "https://www.youtube.com/watch?v=cTL9RoqPIv8&t=2s" # If you have a link to a video that explains the project
+  code: "https://github.com/mrc-ide/malaria_no_more/tree/main" # If you have a link to the code of the project
+  image: "content/projects/files/zeromalaria.png"
+  articles:
+    - title: "Malaria No More UK"
+      url: "https://malarianomore.org.uk/david-beckham-and-experts-unite-launch-zero-malaria-experience"
+    - title: "The Mill"
+      url: "https://www.themill.com/the-mill-plus/work/malaria-no-more-the-zero-malaria-experience/"
+    - title: "ALMA 2030"
+      url: "https://alma2030.org/news/new-immersive-experience-from-malaria-no-more-uk-shows-how-innovation-and-partnerships-can-help-defeat-malaria/"
+    - title: "Imperial College London"
+      url: "https://www.imperial.ac.uk/news/257893/david-beckham-joins-scientists-video-launched/"
+
+
+- id: project_1
+  title: "Hearing loss prevalence and years lived with disability, 1990–2019: findings from the Global Burden of Disease Study 2019"
+  authors: "IHME, World Health Organisation."
+  description: "Global estimates of hearing loss for the Global Burden of Disease study."
+  context: "The Lancet."
+  writeup: "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(21)00516-X/fulltext" # If you have a PDF or write-up. Note, the project
+  #poster: "content/projects/files/..." # If you have a poster related to the project. This can also be a link
+  #slides: "content/projects/files/..." # If you have slides related. This can also be a link
+  #video: "https://youtube.com/..." # If you have a link to a video that explains the project
+  code: "https://github.com/ihmeuw/birds/tree/hearing_lancet_2021" # If you have a link to the code of the project
+  image: "content/projects/files/hearing_plot.jpg"
+  articles:
+    - title: "Paper"
+      url: "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(21)00516-X/fulltext"
+
+- id: project_2
+  title: "World Hearing Report"
+  authors: "World Health Organisation."
+  description: "Contributed estimates of hearing loss to report."
+  #writeup: "https://www.who.int/publications/i/item/9789240020481" # If you have a PDF or write-up. Note, the project
+  #poster: "content/projects/files/..." # If you have a poster related to the project. This can also be a link
+  #slides: "content/projects/files/..." # If you have slides related. This can also be a link
+  #video: "https://youtube.com/..." # If you have a link to a video that explains the project
+  code: "https://github.com/ihmeuw/birds/tree/hearing_lancet_2021" # If you have a link to the code of the project
+  image: "content/projects/files/World_hearing.png"
+  articles:
+    - title: "Report"
+      url: "https://www.who.int/publications/i/item/9789240020481"
+
+- id: project_2
+  title: "Ethiopian National Health Atlas"
+  authors: "Ethiopian Public Health Institute (EPHI)"
+  description: "Helped generate national and regional reports."
+  #writeup: "https://ndmc.ephi.gov.et/national-health-atlas/" # If you have a PDF or write-up. Note, the project
+  #poster: "content/projects/files/..." # If you have a poster related to the project. This can also be a link
+  #slides: "content/projects/files/..." # If you have slides related. This can also be a link
+  #video: "https://youtube.com/..." # If you have a link to a video that explains the project
+  #code: "https://github.com/ihmeuw/birds/tree/hearing_lancet_2021" # If you have a link to the code of the project
+  image: "content/projects/files/ndmc1.png"
+  articles:
+    - title: "Press release"
+      url: "https://ndmc.ephi.gov.et/ministry-inaugurates-national-health-atlas-and-national-data-access-and-sharing-guideline/"
+    - title: "Report"
+      url: "https://ndmc.ephi.gov.et/national-health-atlas/"
+
+
+
+- id: project_3
+  title: "Hearing loss prevalence and years lived with disability, 1990–2019: findings from the Global Burden of Disease Study 2019"
+  authors: "IHME"
+  description: "American estimates of hearing loss for the Global Burden of Disease study."
+  context: "Ear and Hearing."
+  writeup: "https://journals.lww.com/ear-hearing/fulltext/2024/01000/hearing_loss_prevalence,_years_lived_with.24.aspx" # If you have a PDF or write-up. Note, the project
+  #poster: "content/projects/files/..." # If you have a poster related to the project. This can also be a link
+  #slides: "content/projects/files/..." # If you have slides related. This can also be a link
+  #video: "https://youtube.com/..." # If you have a link to a video that explains the project
+  code: "https://github.com/ihmeuw/birds/tree/hearing_lancet_2021" # If you have a link to the code of the project
+  image: "content/projects/files/ear_and_hearing.png"
+  articles:
+    - title: "Interview"
+      url: "https://www.healthdata.org/news-events/insights-blog/acting-data/honoring-deaf-history-month-conversation-researcher-lydia"
+
+
+
+- id: project_3
+  title: "Obstacles to Healing Asthma"
+  authors: "Amal Abdi, Lydia Haile"
+  #description: "American estimates of hearing loss for the Global Burden of Disease study."
+  context: "Think Global Health."
+  #writeup: "https://journals.lww.com/ear-hearing/fulltext/2024/01000/hearing_loss_prevalence,_years_lived_with.24.aspx" # If you have a PDF or write-up. Note, the project
+  #poster: "content/projects/files/..." # If you have a poster related to the project. This can also be a link
+  #slides: "content/projects/files/..." # If you have slides related. This can also be a link
+  #video: "https://youtube.com/..." # If you have a link to a video that explains the project
+  #code: "https://github.com/ihmeuw/birds/tree/hearing_lancet_2021" # If you have a link to the code of the project
+  image: "content/projects/files/Asthma20Header.png"
+  articles:
+    - title: "Article"
+      url: "https://www.thinkglobalhealth.org/article/obstacles-healing-asthma"
+
+
+- id: project_3
+  title: "Hearing Loss, Social Isolation, and the COVID-19 Pandemic"
+  authors: "Lydia Haile"
+  #description: "American estimates of hearing loss for the Global Burden of Disease study."
+  context: "Think Global Health."
+  #writeup: "https://journals.lww.com/ear-hearing/fulltext/2024/01000/hearing_loss_prevalence,_years_lived_with.24.aspx" # If you have a PDF or write-up. Note, the project
+  #poster: "content/projects/files/..." # If you have a poster related to the project. This can also be a link
+  #slides: "content/projects/files/..." # If you have slides related. This can also be a link
+  #video: "https://youtube.com/..." # If you have a link to a video that explains the project
+  #code: "https://github.com/ihmeuw/birds/tree/hearing_lancet_2021" # If you have a link to the code of the project
+  image: "content/projects/files/hearing20loss20ihme_0.png"
+  articles:
+    - title: "Article"
+      url: "Hearing Loss, Social Isolation, and the COVID-19 Pandemic"
+

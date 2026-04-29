@@ -1,0 +1,200 @@
+# Site Configuration
+# This file contains all site metadata, layout, contacts, and design settings
+
+# ===========================
+# Site Metadata
+# ===========================
+site:
+  name: "Lydia Haile"
+  footer_name: "Lydia Haile"
+  page_title: "Lydia Haile"  # Browser tab title
+  #nationality_flags: "🇪🇹"  # Optional: displayed under profile picture
+  google_scholar_url: "https://scholar.google.com/citations?user=ZNbwQyMAAAAJ&hl=en"
+  cv_url: "content/site/cv.pdf"  # Path to CV/Resume PDF
+  site_url: "https://lmhaile.github.io"  # Your GitHub Pages URL — no trailing slash (used for OG tags in blog posts)
+  role:
+    title: "PhD Student and Research Assistant"
+    affiliation: "Imperial College London"
+
+# ===========================
+# Layout & Navigation
+# ===========================
+layout:
+  header:
+    navigation:
+      - label: "Experience"
+        href: "#experience-heading"
+      - label: "Projects"
+        href: "#projects-heading"
+      - label: "Publications"
+        href: "#publications-heading"
+      - label: "CV"
+        href: "{{cv_url}}"
+        is_external: true
+  
+  sections:
+    timeline:
+      title: "Experience"
+      # subtitle: "You can enter a decription of what is to follow here: e.g. My experience to date is described below."
+    projects:
+      title: "Projects"
+      subtitle: "Key projects I have contributed to are decribed below."
+    publications:
+      title: "Publications"
+      subtitle: "Publications from my Imperial College profile."
+
+  footer:
+    year: 2026
+    tagline: ""
+    license_text: "Template by Fabio J. Fehr"
+    license_url: "https://github.com/FJFehr/fjfehr.github.io/"
+
+# ===========================
+# Contact & Social Links
+# ===========================
+contacts:
+  - name: "Email"
+    icon: "✉️"
+    url: "mailto:l.haile@imperial.ac.uk"
+    display: "l.haile@imperial.ac.uk"
+
+  
+  - name: "LinkedIn"
+    icon: "content/site/icons/linkedin-svgrepo-com.svg"
+    url: "https://www.linkedin.com/in/lydia-haile/"
+    display: "LinkedIn"
+    is_image: true
+
+  - name: "Google Scholar"
+    icon: "content/site/icons/google-scholar-svgrepo-com.svg"
+    url: "https://scholar.google.com/citations?user=ZNbwQyMAAAAJ&hl=en"
+    display: "Google Scholar"
+    is_image: true
+
+  - name: "GitHub"
+    icon: "content/site/icons/github-svgrepo-com.svg"
+    url: "https://github.com/lmhaile"
+    display: "GitHub"
+    is_image: true
+
+  - name: "Imperial Profile"
+    icon: "🏛️"
+    url: "https://profiles.imperial.ac.uk/l.haile/about"
+    display: "Imperial Profile"
+
+
+# ===========================
+# Design System
+# ===========================
+design:
+  # Layout dimensions
+  layout:
+    max_width: 1100px
+    padding:
+      horizontal: 40px
+      vertical: 40px
+  
+  # Typography
+  typography:
+    body:
+      font_size: 17px
+      line_height: 1.6
+      font_family: "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif"
+      color:
+        light: "#0a0a0a"
+        dark: "#e0e0e0"
+    
+    heading:
+      name:  # Site name in header
+        font_size: 32px
+        font_weight: 700
+        letter_spacing: "-0.02em"
+      section_title:  # Section titles (Projects, Contacts, etc.)
+        font_size: 28px
+        font_weight: 700
+    
+    links:
+      font_size: 14px
+      color:
+        light: "#666"
+        dark: "#a0a0a0"
+  
+  # Spacing
+  spacing:
+    header:
+      margin_top: 70px
+      margin_bottom: 70px
+    profile_section:
+      margin_top: 40px
+      margin_bottom: 40px
+      gap: 16px  # Gap between profile image and text
+    project_section:
+      margin_top: 40px
+      margin_bottom: 40px
+      project_margin_bottom: 12px  # Gap between project items
+    contact_section:
+      margin_top: 40px
+      margin_bottom: 40px
+    footer:
+      margin_top: 60px
+      padding_bottom: 40px
+  
+  # Images
+  images:
+    profile_picture:
+      width: 180px
+      border_radius: "50%"  # Circular
+    project_thumbnail:
+      width: 180px
+      height: 180px
+      border_radius: "6px"
+  
+  # Social links styling
+  social_links:
+    button:
+      size: 32px  # Width and height
+      border_radius: "50%"  # Circular
+    icon:
+      width: 18px
+      height: 18px
+      font_size: 20px  # For emoji icons
+    gap: 12px  # Space between buttons
+    spacing:
+      margin_top: 16px  # Gap between profile picture and social links
+  
+  # Colors
+  colors:
+    active_palette: "teal"  # Options: indigo | violet | teal
+    palettes:
+      indigo:
+        light: { link: "#4f46e5", hover: "#e0e7ff" }
+        dark:  { link: "#818cf8", hover: "#2d2a5e" }
+      violet:
+        light: { link: "#7c3aed", hover: "#ede9fe" }
+        dark:  { link: "#a78bfa", hover: "#2e1065" }
+      teal:
+        light: { link: "#0d9488", hover: "#ccfbf1" }
+        dark:  { link: "#2dd4bf", hover: "#042f2e" }
+
+    light_mode:
+      background: "#f8f5ee"  # Eggshell — matches CSS --bg-color
+      surface: "#f8f5ee"     # Card / input surface — matches CSS --input-bg
+      text: "#0a0a0a"
+      muted: "#666"
+      border: "#e0e0e0"
+
+    dark_mode:
+      background: "#1a1a1a"
+      surface: "#2a2a2a"     # Card / input surface — matches CSS --input-bg
+      text: "#e0e0e0"
+      muted: "#a0a0a0"
+      border: "#333"
+
+    accent:
+      light: { base: "#f59e0b", hover: "#fef3c7" }  # Amber — project action buttons
+      dark:  { base: "#fbbf24", hover: "#451a03" }
+  
+  # Transitions
+  transitions:
+    duration: "0.2s"
+    easing: "ease"
