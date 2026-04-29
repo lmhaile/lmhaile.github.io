@@ -5,7 +5,7 @@
   type: "work"
   start_date: "2026-01"
   end_date: "present"
-  description: "**Research Assistant in Epidemiology and PhD Student** at the [Imperial College London](https://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/related-initiatives/verg/current-research-topics/). I work on estimating coverage, immunity, and impact of inactivated polioirus vaccination in selected geographies."
+  description: "**Research Assistant in Epidemiology and PhD Student** at the [Imperial College London](https://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/related-initiatives/verg/current-research-topics/). I work on estimating coverage, immunity, and impact of inactivated polioirus vaccination in selected geographies. \n\n **PhD Focus**: Estimating the Epidemiological Impact of Malaria and Polio Vaccine Implementation Through Mathematical Modelling and Statistical Analysis of Surveillance Data."
   url: "https://www.imperial.ac.uk/"
   logo: "content/timeline/logos/Imperial_logo.png"
 
@@ -22,7 +22,7 @@
   type: "education"
   start_date: "2019-09"
   end_date: "2022-08"
-  description: "**MPH student** in Health Metrics and Evaluation at the University of Washington School of Public Health.\n\n[Thesis: Asthma Prevalence, Severity, and Nonfatal Burden by Race/Ethnicity in the United States: A Bayesian Meta-regression Analysis.](https://digital.lib.washington.edu/server/api/core/bitstreams/515785ee-9bb6-4603-8acb-be25672092d5/content)"
+  description: "**MPH student** in Health Metrics and Evaluation at the University of Washington School of Public Health.\n\n**[Thesis:** Asthma Prevalence, Severity, and Nonfatal Burden by Race/Ethnicity in the United States: A Bayesian Meta-regression Analysis.](https://digital.lib.washington.edu/server/api/core/bitstreams/515785ee-9bb6-4603-8acb-be25672092d5/content)"
   url: "https://sph.washington.edu/" # Clicking the image will redirect to this link
   logo: "content/timeline/logos/UW_logo.png" # The image
 
@@ -42,6 +42,6 @@
   type: "education"
   start_date: "2015-09"
   end_date: "2019-05"
-  description: "**BA in Public Health** at Brown University.\n\nHonors Thesis: Pediatric Autopsies of Kyiv Region, Ukraine, 2017: Mortality and Discordance between Clinical and Pathological Cause-of-Death data."
+  description: "**BA in Public Health** at Brown University.\n\n**Honors Thesis:** Pediatric Autopsies of Kyiv Region, Ukraine, 2017: Mortality and Discordance between Clinical and Pathological Cause-of-Death data."
   url: "https://healthdata.org/" # Clicking the image will redirect to this link
   logo: "content/timeline/logos/brown_logo.png" # The image
