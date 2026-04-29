@@ -276,6 +276,7 @@ a {
   margin: 0 0 16px 0;
   color: var(--muted-color);
   line-height: 1.6;
+  text-align: justify;
 }
 
 .profile-text p:last-child {

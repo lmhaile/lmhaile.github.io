@@ -4,7 +4,7 @@
 - id: project_1
   title: "Modelling incremental impact of malaria vaccine booster and optimal allocation strategy"
   authors: "Lucy Okell, Nora Schmit, Lydia Haile, Hillary Topazian, TKI, WHO. "
-  description: "Modelled estimates of the incremental impact of the 4th dose of the malaria vaccine for the WHO Strategic Advisory Group of Experts (SAGE), Malaria Policy Advisory Group (MPAG) and Immunization and vaccines related research advisory committee (IVIR-AC)"
+  description: "Modelled estimates of the incremental impact of the 4th dose of the malaria vaccine for the WHO **SAGE** (Strategic Advisory Group of Experts), **MPAG** (Malaria Policy Advisory Group) and **IVIR-AC** (Immunization and vaccines related research advisory committee)"
   #context: "The Lancet."
   #writeup: "https://www.who.int/news-room/events/detail/2025/09/22/default-calendar/strategic-advisory-group-of-experts-on-immunization-september-2025" # If you have a PDF or write-up. Note, the project
   #poster: "content/projects/files/..." # If you have a poster related to the project. This can also be a link
@@ -60,7 +60,7 @@
 
 - id: project_2
   title: "World Hearing Report"
-  authors: "World Health Organisation."
+  context: "World Health Organisation."
   description: "Contributed estimates of hearing loss prevalence (consultancy)"
   #writeup: "https://www.who.int/publications/i/item/9789240020481" # If you have a PDF or write-up. Note, the project
   #poster: "content/projects/files/..." # If you have a poster related to the project. This can also be a link
@@ -74,7 +74,7 @@
 
 - id: project_2
   title: "Ethiopian National Health Atlas"
-  authors: "Ethiopian Public Health Institute (EPHI)"
+  context: "Ethiopian Public Health Institute (EPHI)"
   description: "Helped generate national and regional reports."
   #writeup: "https://ndmc.ephi.gov.et/national-health-atlas/" # If you have a PDF or write-up. Note, the project
   #poster: "content/projects/files/..." # If you have a poster related to the project. This can also be a link

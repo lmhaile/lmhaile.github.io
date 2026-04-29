@@ -264,8 +264,8 @@ async function loadTimeline() {
             // Format description with markdown support and paragraph breaks
             let formattedDescription = item.description || '';
             formattedDescription = formatInlineMarkdown(formattedDescription);
-            // Support paragraph breaks with \n\n
-            formattedDescription = formattedDescription.replace(/\n\n/g, '</p><p class="timeline-description">');
+            // Support paragraph breaks with \n\n - split and wrap each part in its own paragraph
+            const paragraphs = formattedDescription.split(/\n\n+/).map(para => `<p class="timeline-description">${para.trim()}</p>`).join('');
             
             // Make logo clickable if URL exists
             const logoHTML = item.url 
@@ -278,7 +278,7 @@ async function loadTimeline() {
                 <div class="timeline-year">${yearRange}</div>
                 ${logoHTML}
                 <div class="timeline-content">
-                    <p class="timeline-description">${formattedDescription}</p>
+                    ${paragraphs}
                 </div>
             </div>
             `;
@@ -440,7 +440,7 @@ async function loadLayoutConfiguration() {
         const footerLicenseElement = document.getElementById('footer-license');
         
         if (footerTaglineElement && config.layout?.footer?.tagline) {
-            footerTaglineElement.textContent = config.layout.footer.tagline;
+            footerTaglineElement.innerHTML = formatInlineMarkdown(config.layout.footer.tagline);
         }
         if (footerYearElement && config.layout?.footer?.year) {
             footerYearElement.textContent = config.layout.footer.year;
@@ -563,7 +563,8 @@ async function loadProjects() {
                 ? project.authors.replace(/\b(?:Lydia\s+(?:[A-Z]\s*)?Haile|Haile,\s*Lydia(?:\s+[A-Z])?)\b/g, match => `<strong>${match}</strong>`)
                 : '';
             const authorsHTML = formattedAuthors ? `<p class="project-authors">${formattedAuthors}</p>` : '';
-            const descriptionHTML = project.description ? `<p class="project-description-text">${project.description}</p>` : '';
+            const formattedDescription = project.description ? formatInlineMarkdown(project.description) : '';
+            const descriptionHTML = formattedDescription ? `<p class="project-description-text">${formattedDescription}</p>` : '';
             const contextHTML = project.context ? `<p><b class="project-context">${project.context}</b></p>` : '';
             const targetUrl = project.writeup || project.paper || project.link || project.poster || project.slides || project.video || project.code || project.demo || '#';
             

@@ -6,4 +6,4 @@ Prior to this role I was a **Technical Analyst** at Imperial, where I applied co
 
 <br>
 <br>
-Previously I modelled the global burden of hearing loss, musculoskeletal disorders, headaches, hearing loss, and chronic respiratory conditions for the Global Burden of Disease study at the Institute for Health Metrics and Evaluation. I have a background in Public Health (Brown) and Health Metrics and Evaluation (University of Washington, MPH).
+Previously I modelled the global burden of hearing loss, musculoskeletal disorders, headaches, hearing loss, and chronic respiratory conditions for the Global Burden of Disease study at the Institute for Health Metrics and Evaluation. I have a background in Public Health **(Brown)** and Health Metrics and Evaluation **(University of Washington, MPH)**.

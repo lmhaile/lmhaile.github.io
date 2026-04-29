@@ -45,7 +45,7 @@ layout:
 
   footer:
     year: 2026
-    tagline: ""
+    tagline: "Code available for site: [GitHub](https://github.com/lmhaile/lmhaile.github.io)"
     license_text: "Template by Fabio J. Fehr"
     license_url: "https://github.com/FJFehr/fjfehr.github.io/"
 
