@@ -1,5 +1,17 @@
 # Projects List
 # Displayed on the homepage in the Projects section
+- id: project_1
+  title: "Modelling malaria vaccine impact in Sub-Saharan Africa"
+  authors: "Lydia Haile, Hillary Topazian, Azra Ghani, Pete Winskill, Kelly McCain, Nora Schmit, Toussaint Rouamba"
+  description: "Modelling the impact of malaria vaccine implementation in Sub-Saharan Africa for the Vaccine Impact Modelling Consortium [(VIMC)](https://www.vaccineimpact.org/aboutus)."
+  #context: "The Lancet."
+  #writeup: "https://www.who.int/news-room/events/detail/2025/09/22/default-calendar/strategic-advisory-group-of-experts-on-immunization-september-2025" # If you have a PDF or write-up. Note, the project
+  poster: "content/projects/files/MIM_reformatted_final.pf" # If you have a poster related to the project. This can also be a link
+  #slides: "content/projects/files/..." # If you have slides related. This can also be a link
+  #video: "https://www.youtube.com/watch?v=cTL9RoqPIv8&t=2s" # If you have a link to a video that explains the project
+  code: "https://github.com/mrc-ide/VIMC_malaria" # If you have a link to the code of the project
+  image: "content/projects/files/vimc.png"
+
 
 - id: project_1
   title: "Modelling incremental impact of malaria vaccine booster and optimal allocation strategy"
