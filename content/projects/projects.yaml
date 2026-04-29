@@ -38,20 +38,22 @@
   authors: "ICL London (Hillary Topazian, Azra Ghani, Pete Winskill, Lydia Haile), Malaria No More UK, The Mill."
   description: "Modelled estimates of the impact of malaria interventions on cases and deaths in sub-Saharan Africa."
   #context: "The Lancet."
-  writeup: "https://www.x.zeromalaria.org/" # If you have a PDF or write-up. Note, the project
+  #writeup: "https://www.x.zeromalaria.org/" # If you have a PDF or write-up. Note, the project
   #poster: "content/projects/files/..." # If you have a poster related to the project. This can also be a link
   #slides: "content/projects/files/..." # If you have slides related. This can also be a link
   video: "https://www.youtube.com/watch?v=cTL9RoqPIv8&t=2s" # If you have a link to a video that explains the project
   code: "https://github.com/mrc-ide/malaria_no_more/tree/main" # If you have a link to the code of the project
   image: "content/projects/files/zeromalaria.png"
   articles:
-    - title: "Malaria No More UK"
+    - title: "Project website"
+      url: "https://www.x.zeromalaria.org/"
+    - title: "Malaria No More UK press release"
       url: "https://malarianomore.org.uk/david-beckham-and-experts-unite-launch-zero-malaria-experience"
-    - title: "The Mill"
+    - title: "The Mill press release"
       url: "https://www.themill.com/the-mill-plus/work/malaria-no-more-the-zero-malaria-experience/"
-    - title: "ALMA 2030"
+    - title: "ALMA 2030 press release"
       url: "https://alma2030.org/news/new-immersive-experience-from-malaria-no-more-uk-shows-how-innovation-and-partnerships-can-help-defeat-malaria/"
-    - title: "Imperial College London"
+    - title: "Imperial College London press release"
       url: "https://www.imperial.ac.uk/news/257893/david-beckham-joins-scientists-video-launched/"
 
 
