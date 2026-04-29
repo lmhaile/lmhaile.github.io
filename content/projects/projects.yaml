@@ -61,7 +61,7 @@
 - id: project_2
   title: "World Hearing Report"
   authors: "World Health Organisation."
-  description: "Contributed estimates of hearing loss to report."
+  description: "Contributed estimates of hearing loss prevalence (consultancy)"
   #writeup: "https://www.who.int/publications/i/item/9789240020481" # If you have a PDF or write-up. Note, the project
   #poster: "content/projects/files/..." # If you have a poster related to the project. This can also be a link
   #slides: "content/projects/files/..." # If you have slides related. This can also be a link
