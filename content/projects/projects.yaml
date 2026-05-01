@@ -6,7 +6,7 @@
   description: "Modelling the impact of malaria vaccine implementation in Sub-Saharan Africa for the Vaccine Impact Modelling Consortium [(VIMC)](https://www.vaccineimpact.org/aboutus)."
   #context: "The Lancet."
   #writeup: "https://www.who.int/news-room/events/detail/2025/09/22/default-calendar/strategic-advisory-group-of-experts-on-immunization-september-2025" # If you have a PDF or write-up. Note, the project
-  poster: "content/projects/files/MIM_reformatted_final.pf" # If you have a poster related to the project. This can also be a link
+  poster: "content/projects/files/MIM_reformatted_final.pdf" # If you have a poster related to the project. This can also be a link
   #slides: "content/projects/files/..." # If you have slides related. This can also be a link
   #video: "https://www.youtube.com/watch?v=cTL9RoqPIv8&t=2s" # If you have a link to a video that explains the project
   code: "https://github.com/mrc-ide/VIMC_malaria" # If you have a link to the code of the project
@@ -25,8 +25,6 @@
   code: "https://github.com/mrc-ide/malariavax2G" # If you have a link to the code of the project
   image: "content/projects/files/sage.png"
   articles:
-    - title: "Meeting documentation"
-      url: "https://malarianomore.org.uk/david-beckham-and-experts-unite-launch-zero-malaria-experience"
     - title: "SAGE Report and Recommendation"
       url: "https://www.who.int/publications/i/item/who-wer10049-605-626"
     - title: "IVIR-AC Report and Recommendation"
@@ -60,9 +58,9 @@
 - id: project_1
   title: "Hearing loss prevalence and years lived with disability, 1990–2019: findings from the Global Burden of Disease Study 2019"
   authors: "IHME, World Health Organisation."
-  description: "Global estimates of hearing loss for the Global Burden of Disease study."
+  description: "Global estimates of hearing loss for the Global Burden of Disease study (first author and modeller)."
   context: "The Lancet."
-  writeup: "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(21)00516-X/fulltext" # If you have a PDF or write-up. Note, the project
+  #writeup: "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(21)00516-X/fulltext" # If you have a PDF or write-up. Note, the project
   #poster: "content/projects/files/..." # If you have a poster related to the project. This can also be a link
   #slides: "content/projects/files/..." # If you have slides related. This can also be a link
   #video: "https://youtube.com/..." # If you have a link to a video that explains the project
@@ -107,7 +105,7 @@
 - id: project_3
   title: "Hearing loss prevalence and years lived with disability, 1990–2019: findings from the Global Burden of Disease Study 2019"
   authors: "IHME"
-  description: "American estimates of hearing loss for the Global Burden of Disease study."
+  description: "American estimates of hearing loss for the Global Burden of Disease study (first author and modeller)."
   context: "Ear and Hearing."
   writeup: "https://journals.lww.com/ear-hearing/fulltext/2024/01000/hearing_loss_prevalence,_years_lived_with.24.aspx" # If you have a PDF or write-up. Note, the project
   #poster: "content/projects/files/..." # If you have a poster related to the project. This can also be a link
@@ -116,9 +114,10 @@
   code: "https://github.com/ihmeuw/birds/tree/hearing_lancet_2021" # If you have a link to the code of the project
   image: "content/projects/files/ear_and_hearing.png"
   articles:
+    - title: "Paper"
+      url: "https://journals.lww.com/ear-hearing/fulltext/2024/01000/hearing_loss_prevalence,_years_lived_with.24.aspx"
     - title: "Interview"
       url: "https://www.healthdata.org/news-events/insights-blog/acting-data/honoring-deaf-history-month-conversation-researcher-lydia"
-
 
 
 - id: project_3
@@ -150,5 +149,5 @@
   image: "content/projects/files/hearing20loss20ihme_0.png"
   articles:
     - title: "Article"
-      url: "Hearing Loss, Social Isolation, and the COVID-19 Pandemic"
+      url: "https://www.thinkglobalhealth.org/article/hearing-loss-social-isolation-and-covid-19-pandemic"
 
