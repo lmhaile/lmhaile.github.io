@@ -11,6 +11,9 @@
   #video: "https://www.youtube.com/watch?v=cTL9RoqPIv8&t=2s" # If you have a link to a video that explains the project
   code: "https://github.com/mrc-ide/VIMC_malaria" # If you have a link to the code of the project
   image: "content/projects/files/vimc.png"
+  articles:
+    - title: "Paper"
+      url: "https://doi.org/10.1016/S0140-6736(26)00555-6"
 
 
 - id: project_1
