@@ -25,7 +25,7 @@
   #poster: "content/projects/files/..." # If you have a poster related to the project. This can also be a link
   #slides: "content/projects/files/..." # If you have slides related. This can also be a link
   #video: "https://www.youtube.com/watch?v=cTL9RoqPIv8&t=2s" # If you have a link to a video that explains the project
-  code: "https://github.com/mrc-ide/malariavax2G" # If you have a link to the code of the project
+  #code: "https://github.com/mrc-ide/malariavax2G" # If you have a link to the code of the project
   image: "content/projects/files/sage.png"
   articles:
     - title: "SAGE Report and Recommendation"
